@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .sidebar {
+      border-right: 1px solid #ddd;
+      height: 100vh;
+    }
+    .product-card img {
+      height: 150px;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    <!-- Sidebar -->
+    <div class="col-md-3 p-3 sidebar bg-white">
+      <h5>Categories</h5>
+      <ul class="list-unstyled">
+        <li>Laptops</li>
+        <li>Smartphones</li>
+        <li>Headphones</li>
+        <li>Watches</li>
+      </ul>
+
+      <h5>Price</h5>
+      <div class="mb-3">
+        <input type="text" class="form-control mb-2" placeholder="Min">
+        <input type="text" class="form-control" placeholder="Max">
+      </div>
+
+      <h5>Brand</h5>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="apple">
+        <label class="form-check-label" for="apple">Samsung</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="samsung">
+        <label class="form-check-label" for="samsung">Apple</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="sony">
+        <label class="form-check-label" for="sony">Asus</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="huawei">
+        <label class="form-check-label" for="huawei">Sony</label>
+      </div>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="col-md-9 p-4">
+      <div class="row g-4">
+        <!-- Product Card -->
+         <!--Smartphone-->
+        <div class="col-md-4">
+          <div class="card product-card text-center">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTasP0UsP7GOBopIJlssXavpAPkl4SUWq8OLJLJxVUo5ObBTaodXGb6DRt4C7sRl7QYVmkQiINuv6tNt5yyRaQoycgMOgCTgdikdd1zdqguNANU3qtt_m0mhQ" class="card-img-top" alt="Smartphone">
+            <div class="card-body">
+              <h6 class="card-title">Asus Rog Phone 9 Pro 16gb/512gb 6.8 Black</h6>
+              <p>₱77,995.00</p>
+              <button class="btn btn-primary">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Headphones -->
+        <div class="col-md-4">
+          <div class="card product-card text-center">
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRWuLzKfKHJ69pKRM2xOrJiEdGO8vVHflA3Ke-ZkycIC2CwYdiJeF6soyanxXVGI2dshmGlmbMUzCVYW2wJXupJs9-lLb_oY8iSkvHeMt8GifxzPxDThCgE" class="card-img-top" alt="Headphones">
+            <div class="card-body">
+              <h6 class="card-title">WH-CH720N Wireless Headphones (Black) by Sony</h6>
+              <p>₱5,999.00</p>
+              <button class="btn btn-primary">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+          <!-- Earbuds -->
+        <div class="col-md-4">
+          <div class="card product-card text-center">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQhgST-rYOurn46lcR-aF6qtnEPCFW8iHZ7-Y9Ul94408bbJbcSKqw4M4cmEQMZWvN9QnPCHvs16RdGpCAFWRBPQ4qW3sZXpR6ue4tzilvJ02TB38c5WvIU0w" class="card-img-top" alt="Wireless Earbuds">
+            <div class="card-body">
+              <h6 class="card-title">Samsung Galaxy Buds 3 Black Edition</h6>
+              <p>₱7,521.95</p>
+              <button class="btn btn-primary">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+          <!-- Smartwatch -->
+        <div class="col-md-4">
+          <div class="card product-card text-center">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSc9ZQafCAYDf09pEjnVJwFkPjEDSey2ewHZo1Tg_OalUeaKMLnjbvBkBaSAkuWWHXi6M9hFSNnKRGcM_1QiMu7OtKoBjRQSgCzhJqYXj9IOwD7o-NL-tlJog" class="card-img-top" alt="Smartwatch">
+            <div class="card-body">
+              <h6 class="card-title">Apple Watch SE GPS 44mm Midnight Aluminum Case with Midnight Sport Band - M/L</h6>
+              <p>₱14,616.89</p>
+              <button class="btn btn-primary">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
